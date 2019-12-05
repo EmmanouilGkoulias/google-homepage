@@ -15,3 +15,18 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+#navbar li{
+    display: inline;
+}
+
+#navbar {
+    margin-left: 90%;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
