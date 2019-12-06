@@ -41,15 +41,16 @@ button {
 }
 
 input {
-    border-radius: 12px;
+    border-radius: 50px;
     height: 2em;
     width: 520px;
+    padding: 4px 4px 4px 4px;
 }
 
 input[type="text"] {
     font-size: 16px;
     background-image: url("/home/manolis/the_odin_project/google-homepage/images/search-24px.svg"), url("/home/manolis/the_odin_project/google-homepage/images/keyboard-24px.svg"), url("/home/manolis/the_odin_project/google-homepage/images/mic-24px.svg");
-    background-position: left, right, right;
+    background-position: 3%, 90%, 97%;
     background-repeat: no-repeat;
     padding-left: 30px;
     padding-right: 30px;
