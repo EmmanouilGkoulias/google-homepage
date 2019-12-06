@@ -2,6 +2,10 @@ html {
     font-size: 16;
 }
 
+*:focus {
+    outline: none;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -43,7 +47,7 @@ button {
 input {
     border-radius: 50px;
     height: 2em;
-    width: 520px;
+    width: 450px;
     padding: 4px 4px 4px 4px;
 }
 
@@ -52,8 +56,8 @@ input[type="text"] {
     background-image: url("/home/manolis/the_odin_project/google-homepage/images/search-24px.svg"), url("/home/manolis/the_odin_project/google-homepage/images/keyboard-24px.svg"), url("/home/manolis/the_odin_project/google-homepage/images/mic-24px.svg");
     background-position: 3%, 90%, 97%;
     background-repeat: no-repeat;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 45px;
+    padding-right: 90px;
 
 }
 
