@@ -1,3 +1,7 @@
+html {
+    font-size: 16;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -11,7 +15,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 50%;
+    top: 37%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -29,4 +33,32 @@
     bottom: 0;
     position: fixed;
     width: 100%;
+}
+
+button {
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+input {
+    border-radius: 12px;
+    height: 2em;
+    width: 520px;
+}
+
+input[type="text"] {
+    font-size: 16px;
+    background-image: url("/home/manolis/the_odin_project/google-homepage/images/search-24px.svg"), url("/home/manolis/the_odin_project/google-homepage/images/keyboard-24px.svg"), url("/home/manolis/the_odin_project/google-homepage/images/mic-24px.svg");
+    background-position: left, right, right;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+#logo {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -100%);
 }
