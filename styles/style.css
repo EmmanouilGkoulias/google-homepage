@@ -1,5 +1,5 @@
-html {
-    font-size: 16;
+* {
+    font-family: arial,sans-serif;
 }
 
 *:focus {
@@ -9,6 +9,7 @@ html {
 .container {
     display: flex;
     flex-direction: row;
+    margin-top: 15px;
 }
 
 .footer {
@@ -40,15 +41,28 @@ html {
 }
 
 button {
-    border-radius: 12px;
-    font-size: 16px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #5f6368;;
+    padding: 0 16px;
+    margin: 11px 4px;
+    height: 36px;
+    border: 1px solid white;
+}
+
+button:hover {
+    border: 1px solid #c6c6c6;
+    color: #222;
+    background-color: #f8f8f8;
 }
 
 input {
     border-radius: 50px;
     height: 2em;
-    width: 450px;
-    padding: 4px 4px 4px 4px;
+    width: 347px;
+    padding: 6px 4px 6px 4px;
+    border: 1px solid #c6c6c6;
 }
 
 input[type="text"] {
@@ -66,4 +80,13 @@ input[type="text"] {
     left: 50%;
     top: 30%;
     transform: translate(-50%, -100%);
+}
+
+#buttons {
+    margin: auto;
+    padding-top: 20px;
+    /* background-color: red; */
+    display: flex;
+    width: fit-content;
+    text-align: center;
 }
