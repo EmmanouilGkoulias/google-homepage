@@ -30,8 +30,10 @@
 }
 
 #navbar {
-    /* background-color: red; */
-    text-align: right;
+    display: flex;
+    /* background-color: rgb(93, 173, 46); */
+    justify-content: flex-end;
+    align-items: center;
     margin-right: 30px;
 }
 
