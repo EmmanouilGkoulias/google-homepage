@@ -30,11 +30,13 @@
 }
 
 #navbar {
+    margin-top: 5px;
     display: flex;
     /* background-color: rgb(93, 173, 46); */
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 20px;
+    margin-left: 1580px;
 }
 
 #navbar button {
@@ -42,6 +44,10 @@
     color: white;
     font-weight: bold;
     border: none;
+    font-size: 13px;
+    height: 30px;
+    width: 77.7px;
+    padding: 0;
 }
 
 .footer {
@@ -76,6 +82,10 @@ input {
     border: 1px solid #c6c6c6;
 }
 
+input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
 input[type="text"] {
     font-size: 16px;
     background-image: url("/home/manolis/the_odin_project/google-homepage/images/search-24px.svg"), url("/home/manolis/the_odin_project/google-homepage/images/keyboard-24px.svg"), url("/home/manolis/the_odin_project/google-homepage/images/mic-24px.svg");
@@ -100,4 +110,16 @@ input[type="text"] {
     display: flex;
     width: fit-content;
     text-align: center;
+}
+
+a {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.87);
+}
+
+a:hover {
+    opacity: 0.85;
+    text-decoration: underline;
 }
