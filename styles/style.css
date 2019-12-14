@@ -126,7 +126,7 @@ input:focus {
 
 input[type="text"] {
     font-size: 16px;
-    background-image: url("/home/manolis/the_odin_project/google-homepage/images/search-24px.svg"), url("/home/manolis/the_odin_project/google-homepage/images/keyboard-24px.svg"), url("/home/manolis/the_odin_project/google-homepage/images/mic-24px.svg");
+    background-image: url("/home/manolis/the_odin_project/google-homepage/images/search-24px.svg"), url("https://raw.githubusercontent.com/EmmanouilGkoulias/google-homepage/master/images/keyboard-24px.svg"), url("/home/manolis/the_odin_project/google-homepage/images/mic-24px.svg");
     background-position: 3%, 90%, 97%;
     background-repeat: no-repeat;
     padding-left: 45px;
