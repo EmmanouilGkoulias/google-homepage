@@ -28,7 +28,6 @@
 #navbar {
     margin-top: 5px;
     display: flex;
-    /* background-color: rgb(93, 173, 46); */
     justify-content: space-around;
     align-items: center;
     margin-right: 20px;
@@ -102,10 +101,11 @@ button {
     border: 1px solid white;
 }
 
-button:hover {
+button:not(#log_in):hover {
     border: 1px solid #c6c6c6;
     color: #222;
     background-color: #f8f8f8;
+    cursor: pointer;
 }
 
 input {
@@ -144,7 +144,6 @@ input[type="text"] {
 #buttons {
     margin: auto;
     padding-top: 20px;
-    /* background-color: red; */
     display: flex;
     width: fit-content;
     text-align: center;
@@ -172,4 +171,5 @@ a {
 a:hover {
     opacity: 0.85;
     text-decoration: underline;
+    cursor: pointer;
 }
